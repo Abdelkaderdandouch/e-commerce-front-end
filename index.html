@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerse | Laser</title>
+    <!--link bootstrap after we paste this all the navbaar will be on right side -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font awesome html-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!--bootstrap icons cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!--NAVIGATION Bootstrap components navbar and fixed part to fix navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top ">
+        <!--py-5p padding from top and bootom 5-->
+        <div class="container">
+            <a class="navbar-brand" href="#"><span style="color:coral"><i class="bi bi-cart-check-fill"></i></span> <span style="color:coral">Laser Ecommerse</span></i></a>
+            <!--we can added logo picture -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i id="bar" class="bi bi-layout-text-sidebar"></i></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Admin
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: antiquewhite;">
+                            <li><a class="dropdown-item" href="#">order</a></li>
+                            <li><a class="dropdown-item" href="#">product</a></li>
+                            <li><a class="dropdown-item" href="#">review</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="AboutUs.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="sproduct.html"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="ContactUs.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="cart.html"><i class="bi bi-cart-dash-fill" ></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-search"></i>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!--this section for home page and have background with contenet and list-->
+    <section id="home">
+        <div class="container">
+            <h5> New ARRAIVAILS</h5>
+            <h1><span>BEST PRICE</span> PRICE THIS YEAR</h1>
+            <p>BEST OFFERS BEST PLACE<br>BEST PRICE </p>
+            <BUtton>Shop Now</BUtton>
+        </div>
+
+    </section>
+
+
+
+    <!--this section about the brand section and how can we divided if we have small or medium or large screen-->
+    <section id="brand" class="container mt-5 py-5 ">
+        <div class="row" m-0 py-5>
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/11.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/22.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/33.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/44.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/55.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md4 col-6" src="img/brand/66.jpg" alt="">
+
+        </div>
+    </section>
+
+
+    <!-- this part for highlight ppicture-->
+    <section id="new" class="w-100">
+        <div class="row p-0 m-0">
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="img/new/11.jpg" alt="">
+                <div class="details">
+                    <h2>phone accessories and laptops<br>UP TO 30% OFF</h2>
+                    <button class="text-uppercase">Shop Now</button>
+                </div>
+            </div>
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="img/new/22.jpg" alt="">
+                <div class="details">
+                    <h2>Gamming Laptops</h2>
+                    <button class="text-uppercase">Shop Now</button>
+                </div>
+            </div>
+            <div class="one col-lg-4 col-md-12 col-12 p-0">
+                <img class="img-fluid" src="img/new/33.jpg" alt="">
+                <div class="details">
+                    <h2>New phones</h2>
+                    <button class="text-uppercase">Shop Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section of featured product-->
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5 ">
+            <h3>OUR FEATURED</h3>
+            <hr class="mx-auto">
+            <p>here you can check our neew products with fair price </p>
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shop/cable.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Iphone 14 </h5>
+                <h4 class="p-price">$999.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/22.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Samsung S21</h5>
+                <h4 class="p-price">$1390.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/33.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Mac Book</h5>
+                <h4 class="p-price">$2399.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/44.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Gaming Laptop</h5>
+                <h4 class="p-price">$1790.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner fix picture-->
+    <section id="banner" class="my-5 py-5">
+        <div class="container">
+            <h4>OUR SALE</h4>
+            <h1>phone & laptops<br>accessories <br>up to 30%</h1>
+            <button class="text-uppercase">Shop Now</button>
+
+        </div>
+    </section>
+
+    <!--types of laptops-->
+    <section id="Laptops" class="my-5 ">
+        <div class="container text-center mt-5 py-5 ">
+            <h3>DIFFERENT TYPES OF Laptops</h3>
+            <hr class="mx-auto">
+            <p>here you can check our neew products with fair price </p>
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/laptops/11.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Acer </h5>
+                <h4 class="p-price">$599.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/laptops/22.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> ASUS </h5>
+                <h4 class="p-price">$999.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/laptops/33.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Think paid</h5>
+                <h4 class="p-price">$695.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/laptops/44.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> ASUS </h5>
+                <h4 class="p-price">$899.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--best phones -->
+    <section id="Phones" class="my-5 ">
+        <div class="container text-center mt-5 py-5 ">
+            <h3>Besat Phones 2022 </h3>
+            <hr class="mx-auto">
+            <p>here you can check our neew products with fair price </p>
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/best phones/11.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Galxay </h5>
+                <h4 class="p-price">$499.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/best phones/22.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Huwaei </h5>
+                <h4 class="p-price">$399.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/best phones/33.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> X peria</h5>
+                <h4 class="p-price">$325.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/best phones/44.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Iphone 14 </h5>
+                <h4 class="p-price">$1390.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Phones" class="my-5 ">
+        <div class="container text-center mt-5 py-5 ">
+            <h3>Accessories </h3>
+            <hr class="mx-auto">
+            <p>here you can check our neew products with fair price </p>
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/accessories/11.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Mouse </h5>
+                <h4 class="p-price">$7.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/accessories/22.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Keyboard </h5>
+                <h4 class="p-price">$12.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/accessories/33.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> USB hub</h5>
+                <h4 class="p-price">$14.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/accessories/44.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> External hard disk </h5>
+                <h4 class="p-price">$65.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!--abed footer -->
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <span style="color:coral"><i class="bi bi-cart-check-fill"></i></span> <span style="color:coral">Laser Ecommerse</span></i>
+                <p class="pt-3">our digital platform and a business model where you can buy or sell products online. Every time you purchase a product online, you’re participating in the ecommerce economy.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">featured</h5>
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Iphone</a></li>
+                    <li><a href="#">Acer</a></li>
+                    <li><a href="#">Asus</a></li>
+                    <li><a href="#">Huwaei</a></li>
+                    <li><a href="#">Lenovo</a></li>
+                    <li><a href="#">X peria</a></li>
+                    <li><a href="#">Toshiba</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase"> Address</h6>
+                    <p>125 Azmi street ,tripoli ,Lebaon</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase"> Phone</h6>
+                    <p>Mail@gmail.com</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase"> Email</h6>
+                    <p>+96181353859</p>
+                </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instgram</h5>
+                <div class="row">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/11.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/22.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/33.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/44.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/55.jpg" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md- col-12 mb-4">
+                    <img src="img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md- col-12 text-nowrap mb-2">
+                    <p>laser ecommerce © 2023.all rights reserved </p>
+                </div>
+                <div class="col-lg-4 col-md- col-12  ">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--link from bootstrap  -> SEPARAte-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+
+</html>

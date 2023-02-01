@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--link bootstrap after we paste this all the navbaar will be on right side -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!--bootstrap icons cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top ">
+        <!--py-5p padding from top and bootom 5-->
+        <div class="container">
+            <a class="navbar-brand" href="#"><span style="color:coral"><i class="bi bi-cart-check-fill"></i></span> <span style="color:coral">Laser Ecommerse</span></i></a>
+            <!--we can added logo picture -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i id="bar" class="bi bi-layout-text-sidebar"></i></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Admin
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: antiquewhite;">
+                            <li><a class="dropdown-item" href="#">order</a></li>
+                            <li><a class="dropdown-item" href="#">product</a></li>
+                            <li><a class="dropdown-item" href="#">review</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="active" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="AboutUs.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="ContactUs.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="cart.html"><i class="bi bi-cart-dash-fill" ></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-search"></i>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!--in this secytion we divided the page in two section on of them is div-->
+    <!--container for remove the slidedr -->
+    <!--im main image i will related as JS to can turn on -->
+    <section class="container sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12 ">
+                <img class="img-fluid w-100 pb-1" src="img/shop/cable.jpg" id="MainImg" alt="">
+
+
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/shop/cable.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/shop/cable2.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/shop/cable3.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/shop/cable4.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h6>Home /cable</h6>
+                <h3 class="py-4">Iphone cable</h3>
+                <h2>$20.00</h2>
+                <select class="my-3 ">
+                    <option >Select screen size</option>
+                    <option >13</option>
+                    <option >15.6</option>
+                    <option >17</option>.
+                    <option >19</option>
+                    
+                </select>
+                <input type="number" value="1">
+                <button class="buy-btn">Add To cart</button>
+                <h4 class="mt-5 mb-5">product Details</h4>
+                <span>Lenovo Group Limited, often shortened to Lenovo (/ ləˈnoʊvoʊ / lə-NOH-voh, Chinese: 联想; pinyin: Liánxiǎng), 
+                    is a Chinese multinational technology company specializing in designing, manufacturing, and marketing consumer 
+                    electronics, personal computers, software, business solutions, and related services.</span>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5 ">
+            <h3>Related products</h3>
+            <hr class="mx-auto">
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/11.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Iphone 14 </h5>
+                <h4 class="p-price">$999.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/22.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Samsung S21</h5>
+                <h4 class="p-price">$1390.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/33.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Mac Book</h5>
+                <h4 class="p-price">$2399.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/44.jpg" alt="">
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h5 class="p-name"> Gaming Laptop</h5>
+                <h4 class="p-price">$1790.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="mt-5 py-5 ">
+        <div class="row container mx-auto pt-5 ">
+            <div class="footer-one col-lg-3 col-md-6 col-12 ">
+                <span style="color:coral "><i class="bi bi-cart-check-fill "></i></span> <span style="color:coral ">Laser Ecommerse</span></i>
+                <p class="pt-3 ">our digital platform and a business model where you can buy or sell products online. Every time you purchase a product online, you’re participating in the ecommerce economy.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3 ">
+                <h5 class="pb-2 ">featured</h5>
+                <ul class="text-uppercase list-unstyled ">
+                    <li><a href="# ">Samsung</a></li>
+                    <li><a href="# ">Iphone</a></li>
+                    <li><a href="# ">Acer</a></li>
+                    <li><a href="# ">Asus</a></li>
+                    <li><a href="# ">Huwaei</a></li>
+                    <li><a href="# ">Lenovo</a></li>
+                    <li><a href="# ">X peria</a></li>
+                    <li><a href="# ">Toshiba</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3 ">
+                <h5 class="pb-2 ">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase "> Address</h6>
+                    <p>125 Azmi street ,tripoli ,Lebaon</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase "> Phone</h6>
+                    <p>Mail@gmail.com</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase "> Email</h6>
+                    <p>+96181353859</p>
+                </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 ">
+                <h5 class="pb-2 ">Instgram</h5>
+                <div class="row ">
+                    <img class="img-fluid w-25 h-100 m-2 " src="img/insta/11.jpg " alt=" ">
+                    <img class="img-fluid w-25 h-100 m-2 " src="img/insta/22.jpg " alt=" ">
+                    <img class="img-fluid w-25 h-100 m-2 " src="img/insta/33.jpg " alt=" ">
+                    <img class="img-fluid w-25 h-100 m-2 " src="img/insta/44.jpg " alt=" ">
+                    <img class="img-fluid w-25 h-100 m-2 " src="img/insta/55.jpg " alt=" ">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="copyright mt-5 ">
+            <div class="row container mx-auto ">
+                <div class="col-lg-3 col-md- col-12 mb-4 ">
+                    <img src="img/payment.png " alt=" ">
+                </div>
+                <div class="col-lg-4 col-md- col-12 text-nowrap mb-2 ">
+                    <p>laser ecommerce © 2023.all rights reserved </p>
+                </div>
+                <div class="col-lg-4 col-md- col-12 ">
+                    <a href="# "><i class="bi bi-facebook "></i></a>
+                    <a href="# "><i class="bi bi-whatsapp "></i></a>
+                    <a href="# "><i class="bi bi-linkedin "></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
